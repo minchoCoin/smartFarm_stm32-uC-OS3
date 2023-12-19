@@ -76,7 +76,7 @@ Android phone, [Serial bluetooth terminal App](https://play.google.com/store/app
 코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\KeilMDK\uCOS-III.uvproj
 ```
 를 실행하여 app.c 와 app_cfg.h를 이 repository에 업로드되어있는 app.c와 app_cfg.h로 바꿉니다.
-3. 
+3. os_cfg_app.h 수정
 ```
 코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\os_cfg_app.h
 ```
