@@ -76,7 +76,14 @@ Android phone, [Serial bluetooth terminal App](https://play.google.com/store/app
 코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\KeilMDK\uCOS-III.uvproj
 ```
 를 실행하여 app.c 와 app_cfg.h를 이 repository에 업로드되어있는 app.c와 app_cfg.h로 바꿉니다.
-
+3. 
+```
+코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\os_cfg_app.h
+```
+에서 OS_CFG_MSG_POOL_SIZE 을 150으로 늘려줍니다.
+```c
+#define  OS_CFG_MSG_POOL_SIZE            150u
+```
 3. project build(F7)과 download(F8)하여 보드에 포팅합니다.
 
 4. 안드로이드 폰에서 블루투스와 연결 후, 블루투스 터미널 앱을 실행하여 보드와 통신을 시작합니다.
