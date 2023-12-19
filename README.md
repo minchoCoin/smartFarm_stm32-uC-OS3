@@ -76,6 +76,7 @@ Android phone, [Serial bluetooth terminal App](https://play.google.com/store/app
 코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\KeilMDK\uCOS-III.uvproj
 ```
 를 실행하여 app.c 와 app_cfg.h를 이 repository에 업로드되어있는 app.c와 app_cfg.h로 바꿉니다.
+
 3. os_cfg_app.h 수정
 ```
 코드다운받은 폴더\micrium_uc-eval-stm32f107_ucos-iii\Micrium\Software\EvalBoards\Micrium\uC-Eval-STM32F107\uCOS-III\os_cfg_app.h
@@ -84,11 +85,11 @@ Android phone, [Serial bluetooth terminal App](https://play.google.com/store/app
 ```c
 #define  OS_CFG_MSG_POOL_SIZE            150u
 ```
-3. project build(F7)과 download(F8)하여 보드에 포팅합니다.
+4. project build(F7)과 download(F8)하여 보드에 포팅합니다.
 
-4. 안드로이드 폰에서 블루투스와 연결 후, 블루투스 터미널 앱을 실행하여 보드와 통신을 시작합니다.
-5. 블루투스 터미널 앱을 통해 온도 임계값, 토양습도 임계값, 조도 임계값을 입력합니다(온도의 단위는 섭씨, 토양습도의 단위는 % (높을 수록 습함), 조도센서의 단위는 아날로그값 그대로(0~4096, 높을 수록 어두움)입니다.
-6. 온도, 토양습도, 조도 값이 표시되고, 평균값도 표시되며, 히터, 펌프, LED를 켤 때마다 블루투스 터미널에 표시됩니다.
+5. 안드로이드 폰에서 블루투스와 연결 후, 블루투스 터미널 앱을 실행하여 보드와 통신을 시작합니다.
+6. 블루투스 터미널 앱을 통해 온도 임계값, 토양습도 임계값, 조도 임계값을 입력합니다(온도의 단위는 섭씨, 토양습도의 단위는 % (높을 수록 습함), 조도센서의 단위는 아날로그값 그대로(0~4096, 높을 수록 어두움)입니다.
+7. 온도, 토양습도, 조도 값이 표시되고, 평균값도 표시되며, 히터, 펌프, LED를 켤 때마다 블루투스 터미널에 표시됩니다.
 
 # 코드 간략한 설명
 ## 생성한 Task
