@@ -172,7 +172,7 @@ Static task에게 측정한 조도 센서값을 보내기 위해 필요
 - 이성훈 [github](https://github.com/NextrPlue)
 
 # Reference
-- uC/OS-III: The Real-Time Kernel For the STM32 ARM Cortex-M3, Jean J. Labrosse, Micrium, 2009 [책 링크](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview?preview=/132386/157512/100-uCOS-III-ST-STM32-003.pdf)
+- Jean J. Labrosse. *uC/OS-III: The Real-Time Kernel For the STM32 ARM Cortex-M3*.Micrium, 2009 [책 링크](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview?preview=/132386/157512/100-uCOS-III-ST-STM32-003.pdf)
 - [STM32F107 Datasheet](https://www.st.com/resource/en/datasheet/stm32f107vc.pdf)
 - [STM32F107 Reference Manual](https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 - STM32F107VCT6 schematic
